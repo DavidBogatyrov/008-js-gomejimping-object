@@ -1,24 +1,56 @@
+body{
+background-image: url(fild.jpg);
+background-size: cover;
+min-height: 100vh;
+animation: bgMoving 7s linear infinite;
+}
 .character{
-  width: 100px;
-  height: 100px;
+  width:200px;
+  height: 310px;
   position:absolute;
   bottom: 20%;
-  left: 10%;
-  background-image: url('mario.webp');
+  left: 20%;
+  background-image: url('SUIIIIII.png');
   background-size: cover;
+  
 }
 
 .jump{
-  animation: jump 1000ms forwards;
+  animation: jump 2000ms forwards;
 }
 
 
 @keyframes  jump {
     50%{
-      bottom: 60%;
+      bottom: 45%;
     }
     100%{
       bottom: 20%;
-      transform: rotate(-360deg);
+      transform: rotate(360deg);
     }
+}
+
+@keyframes bgMoving{
+  0%{
+    background-position: 100vw;
+    100%{
+      background-position: -100vw;
+    }
+  }
+
+
+
+
+
+}
+character{
+  width:200px;
+  height: 310px;
+  position:absolute;
+  bottom: 20%;
+  left: 20%;
+  background-image: url('neymar.jpeg');
+  background-size: cover;
+  
+  
 }
